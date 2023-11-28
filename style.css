@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  font-family: Lato, sans-serif;
+  overflow-x: hidden;
+
+}
+
+.wrapper {
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  color: #54575A;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 67.5px; /* 105.469% */
+}
+
+.text {
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+  color: #54575A;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.brand-img {
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+}
+
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  top: 531px;
+  left: 221px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.google-play-btn {
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;
+}
+
+.google-play-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.main-image-container {
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image-container img {
+  height: 411px;
+}
+
+.profile-img {
+  position: absolute;
+     width: 230px;
+    height: 335px;
+    bottom: 53px;
+    left: 723px;
+}
+
+.home-img {
+  position: absolute;
+  width: 230px;
+  height: 335px;
+  right: 283px;
+  bottom: -1px;
+}
+
+.orders-img {
+    position: absolute;
+    width: 230px;
+    height: 335px;
+    bottom: -2.61px;
+    left: 539px;
+}
+
+.cart-img {
+  position: absolute;
+     width: 230px;
+    height: 281px;
+  bottom: -3px;
+  left: 308px;
+}
+
+.product-img {
+  position: absolute;
+     width: 230px;
+    height: 281px;
+  bottom: 0px;
+  right: 96px;
+}
+
+/*Background toggles*/
+.background-toggles {
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+}
+
+.background-1 {
+  background-color: #e6e6e6;
+  background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23c4c4c4' fill-opacity='0.27' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.background-2 {
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.background-3 {
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
